@@ -37,40 +37,40 @@ This project provides product listings, user authentication, admin dashboard, an
 ```
 
 Projek/
-│── Database/<br>
-│   ├── admin.php<br>
-│   ├── login.php<br>
-│   ├── register.php<br>
-│<br>
-│── Koneksi/<br>
-│   ├── admin_logout.php<br>
-│   ├── connect.php<br>
-│   ├── gagal admin.php<br>
-│   ├── gagal.php<br>
-│   ├── logout.php<br>
-│<br>
-│── View/<br>
-│   ├── Admin/<br>
-│   │   ├── admin.php<br>
-│   │   ├── aktivitas_user.php<br>
-│   │   ├── dashboard_admin.php<br>
-│   │<br>
+│── Database/
+│   ├── admin.php
+│   ├── login.php
+│   ├── register.php
+│
+│── Koneksi/
+│   ├── admin_logout.php
+│   ├── connect.php
+│   ├── gagal admin.php
+│   ├── gagal.php
+│   ├── logout.php
+│
+│── View/
+│   ├── Admin/
+│   │   ├── admin.php
+│   │   ├── aktivitas_user.php
+│   │   ├── dashboard_admin.php
+│   │
 │   ├── Design/<br>
-│       ├── Assets/<br>
-│       │   └── halaman.css<br>
-│<br>
-│── Produk/<br>
-│   ├── barang elektronik.php<br>
-│   ├── makanan.php<br>
-│   ├── metode pembayaran.php<br>
-│   ├── pakaian.php<br>
-│<br>
-│── Navbar.php<br>
-│── footer.php<br>
-│── form register.php<br>
-│── halaman_utama.php<br>
-│── index.php<br>
-│── README.md<br>
+│       ├── Assets/
+│       │   └── halaman.css
+│
+│── Produk/
+│   ├── barang elektronik.php
+│   ├── makanan.php
+│   ├── metode pembayaran.php
+│   ├── pakaian.php
+│
+│── Navbar.php
+│── footer.php
+│── form register.php
+│── halaman_utama.php
+│── index.php
+│── README.md
 
 ```
 ## 🛠️ Tech Stack
