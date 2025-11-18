@@ -4,7 +4,7 @@
 A simple store catalog system built using native PHP.  
 This project provides product listings, user authentication, admin dashboard, and basic store navigation.
 
-
+```
 ## 🚀 Features
 
 ### 🔐 Authentication
@@ -72,10 +72,7 @@ Projek/
 │── index.php<br>
 │── README.md<br>
 
-````
-
----
-
+```
 ## 🛠️ Tech Stack
 - PHP Native
 - MySQL / MariaDB
@@ -91,7 +88,7 @@ Projek/
 - XAMPP or equivalent local server
 - Web browser
 - Git (optional)
----
+
 ````
 ## ⚙️ Installation Guide
 ### 1. Clone the repository
