@@ -29,25 +29,25 @@ This project provides basic features for user authentication, admin dashboard ma
 
 ```
 
-Projek/
-│── Database/
-│   ├── admin.php
-│   ├── login.php
-│   ├── register.php
-│
-│── Koneksi/
-│   ├── admin_logout.php
-│   ├── connect.php
-│   ├── gagal admin.php
-│   ├── gagal.php
-│   ├── logout.php
-│
-│── View/
-│   └── Admin/
-│       ├── admin.php
-│       ├── aktivitas_user.php
-│       ├── dashboard_admin.php
-│   └── Design/
+Projek/<br>
+│── Database/<br>
+│   ├── admin.php<br>
+│   ├── login.php<br>
+│   ├── register.php<br>
+│<br>
+│── Koneksi/<br>
+│   ├── admin_logout.php<br>
+│   ├── connect.php<br>
+│   ├── gagal admin.php<br>
+│   ├── gagal.php<br>
+│   ├── logout.php<br>
+│<br>
+│── View/<br>
+│   └── Admin/<br>
+│       ├── admin.php<br>
+│       ├── aktivitas_user.php<br>
+│       ├── dashboard_admin.php<br>
+│   └── Design/<br>
 
 ````
 
@@ -90,5 +90,3 @@ If you encounter bugs or need improvements, feel free to open an issue or pull r
 ---
 
 ### ⭐ If you like this project, consider giving it a star on GitHub!
-
-```
