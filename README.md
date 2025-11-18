@@ -89,7 +89,8 @@ Projek/
 - Web browser
 - Git (optional)
 
-````
+---
+
 ## ⚙️ Installation Guide
 ### 1. Clone the repository
 
