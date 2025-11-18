@@ -72,16 +72,17 @@ Projek/
 │── halaman_utama.php<br>
 │── index.php<br>
 │── README.md<br>
+
 ````
 
 ---
 
 ## 🛠️ Tech Stack
-- **PHP Native**
-- **MySQL / MariaDB**
-- **HTML & CSS**
-- **XAMPP (Local Development)**
-- **VS Code**
+- PHP Native
+- MySQL / MariaDB
+- HTML & CSS
+- XAMPP (Local Development)
+- VS Code
 
 ---
 
@@ -97,6 +98,9 @@ Projek/
 ## ⚙️ Installation Guide
 
 ### 1. Clone the repository
+```
+````
+
 ```bash
 git clone https://github.com/BagasHtml/Katalog-Toko-New.git
 ````
