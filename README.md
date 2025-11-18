@@ -4,7 +4,6 @@
 A simple store catalog system built using native PHP.  
 This project provides product listings, user authentication, admin dashboard, and basic store navigation.
 
----
 
 ## 🚀 Features
 
@@ -92,19 +91,15 @@ Projek/
 - XAMPP or equivalent local server
 - Web browser
 - Git (optional)
-
 ---
-
-## ⚙️ Installation Guide
-
-### 1. Clone the repository
-```
 ````
+## ⚙️ Installation Guide
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/BagasHtml/Katalog-Toko-New.git
-````
 
+````
 ### 2. Move the folder into XAMPP's htdocs
 
 ```
