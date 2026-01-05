@@ -1,13 +1,13 @@
 <?php 
 session_start();
 
-if (!isset($_SESSION['jumlah_item'])) $_SESSION['jumlah_item'] = 0;
+if (!isset($_SESSION['jumlah_pakaian'])) $_SESSION['jumlah_pakaian'] = 0;
 
 if (isset($_POST['tambah'])) {
-    $_SESSION['jumlah_item'] += 1;
+    $_SESSION['jumlah_pakaian'] += 1;
 
-$harga = 33000000;
-$total = $_SESSION['jumlah_item'] * $harga;
+$harga = 32000;
+$total = $_SESSION['jumlah_pakaian'] * $harga;
 
 $alert = "<script>
         Swal.fire({
@@ -44,7 +44,7 @@ $alert = "<script>
         <div class="pesan">
             <form method="post">
                 <input type="hidden" name="jumlah_item" value="<?= $_SESSION['jumlah_item'] ?? 0 ?>">
-                <button type="submit" name="tambah" class="pesans">33.000.000</button>
+                <button type="submit" name="tambah" class="pesans">32.000</button>
             </form>
         </div>
         <form action="../halaman_utama.php" class="utama">

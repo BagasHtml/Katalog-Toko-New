@@ -1,7 +1,17 @@
 <?php 
 session_start();
 
-$username = $_SESSION['username'] ?? 'Tamu';
+if (!isset($_SESSION['sudahLogin'])) {
+    header("location: ../index.php");
+    exit();
+}
+
+function e($string) {
+    return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
+}
+
+$username = $_SESSION['username'];
+
 date_default_timezone_set('Asia/Jakarta');
 $jam = date('H');
 
@@ -22,27 +32,32 @@ if ($jam >= 5 && $jam < 12) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Utama</title>
+
+    <!-- Design Css -->
     <link rel="stylesheet" href="../View/Design/halaman.css">
+
+    <!-- Sweet alert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <?php include 'Navbar.php'; ?>
 
     <main>
         <div class="dashboard">
-            <b> Halo! <?php echo htmlspecialchars($username) ?> </b><br>
-            <?php echo $ucapkan . "😊"?> <br>
-            <p>selamat datang di Website kami.</p>
+            <b> Halo! <?php echo e($username) ?> </b><br>
+                <?php echo e($ucapkan) . "😊"?> <br>
+                <p>selamat datang di Website kami.</p>
             <a href="../View/Admin/admin.php" class="admin">Login Sebagai Admin</a>
         </div>
     </main>
 
-    <footer>
-        <div class="footer-container">
-            <div class="footer">
-                <b>Bagas Tresna Nanda MS &copy;2025</b>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php' ?>
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>

@@ -19,8 +19,8 @@
                 <br>
                 <input type="password" name="password" id="" required>
                 <br><br>
-                <button type="submit" class="kirim">Daftar</button>
-                <p>Udah punya akun <a href="../View/index.php">Login yuk</a></p>
+                <button type="submit" class="kirim" name="register">Daftar</button>
+                <p>Udah punya akun <a href="../index.php">Login yuk</a></p>
             </form>
         </div>
     </div>

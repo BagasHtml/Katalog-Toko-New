@@ -6,7 +6,9 @@ $db = "login";
 
 $conn = mysqli_connect($local, $username, $password, $db);
 
-if(!$conn) {
-    die("Koneksi gagal" . mysqli_connect_error());
+if($conn->connect_error) {
+    die("Koneksi gagal");
 }
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 ?>

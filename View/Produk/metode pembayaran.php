@@ -25,7 +25,7 @@ if(isset($_POST['bayar'])) {
     </script>";
 
 unset($_SESSION['jumlah_item']);
-unset($_SESSION['jumlah_makanan']); 
+unset($_SESSION['jumlah_makanan']);
 unset($_SESSION['jumlah_pakaian']);
 }
 ?>
